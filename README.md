@@ -16,18 +16,18 @@ The goal is to compute and analyze key operational metrics such as:
 
 ## ⚙️ Project Structure
 
+```text
 autonomous-ship-analysis/
-
-├── data/  
-├── src/  
-│   ├── generate_data.py  
-│   ├── clean.py  
-│   ├── metrics.py  
-│   └── visualize.py  
-│
-├── main.py  
-├── requirements.txt  
-└── README.md  
+├── data/
+├── src/
+│   ├── generate_data.py
+│   ├── clean.py
+│   ├── metrics.py
+│   └── visualize.py
+├── main.py
+├── requirements.txt
+└── README.md
+```
 
 ---
 
