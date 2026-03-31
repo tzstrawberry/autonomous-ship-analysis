@@ -1,6 +1,6 @@
 # Autonomous Ship Data Analysis Pipeline
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements a Python-based data analysis pipeline for the simulation and evaluation of sensor data from an autonomous inland vessel.
 
@@ -14,7 +14,7 @@ The goal is to compute and analyze key operational metrics such as:
 
 ---
 
-## ⚙️ Project Structure
+## Project Structure
 
 ```text
 autonomous-ship-analysis/
@@ -31,7 +31,7 @@ autonomous-ship-analysis/
 
 ---
 
-## 📊 Data Description
+## Data Description
 
 The dataset is synthetic (simulated).
 
@@ -45,7 +45,7 @@ It includes:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 Install dependencies:
 
@@ -57,7 +57,7 @@ python main.py
 
 ---
 
-## 📈 Output
+## Output
 
 - Generate synthetic data  
 - Process data  
@@ -66,7 +66,7 @@ python main.py
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 - Python  
 - Pandas  
@@ -77,7 +77,7 @@ python main.py
 
 # 🇩🇪 Deutsche Version
 
-## 📌 Projektübersicht
+## Projektübersicht
 
 Dieses Projekt implementiert eine Python-basierte Datenanalyse-Pipeline zur Simulation und Auswertung von Sensordaten eines autonomen Binnenschiffs.
 
@@ -91,7 +91,7 @@ Ziel ist die Berechnung und Analyse zentraler Kennzahlen wie:
 
 ---
 
-## ⚙️ Projektstruktur
+## Projektstruktur
 
 ```text
 autonomous-ship-analysis/
@@ -108,7 +108,7 @@ autonomous-ship-analysis/
 
 ---
 
-## 📊 Datenbeschreibung
+## Datenbeschreibung
 
 Die Daten sind synthetisch (simuliert).
 
@@ -122,7 +122,7 @@ Sie enthalten:
 
 ---
 
-## 🚀 Ausführung
+## Ausführung
 
 Installation:
 
@@ -134,7 +134,7 @@ python main.py
 
 ---
 
-## 📈 Ergebnisse
+## Ergebnisse
 
 - Generierung von Daten  
 - Verarbeitung von Daten  
@@ -143,7 +143,7 @@ python main.py
 
 ---
 
-## 🛠️ Technologien
+## Technologien
 
 - Python  
 - Pandas  
@@ -152,7 +152,7 @@ python main.py
 
 ---
 
-## 📌 Ziel des Projekts
+## Ziel des Projekts
 
 Dieses Projekt zeigt:
 
