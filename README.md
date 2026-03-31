@@ -93,18 +93,18 @@ Ziel ist die Berechnung und Analyse zentraler Kennzahlen wie:
 
 ## ⚙️ Projektstruktur
 
+```text
 autonomous-ship-analysis/
-
-├── data/  
-├── src/  
-│   ├── generate_data.py  
-│   ├── clean.py  
-│   ├── metrics.py  
-│   └── visualize.py  
-│
-├── main.py  
-├── requirements.txt  
-└── README.md  
+├── data/
+├── src/
+│   ├── generate_data.py
+│   ├── clean.py
+│   ├── metrics.py
+│   └── visualize.py
+├── main.py
+├── requirements.txt
+└── README.md
+```
 
 ---
 
