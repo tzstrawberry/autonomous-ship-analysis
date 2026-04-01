@@ -16,7 +16,7 @@ The goal is to compute and analyze key operational metrics such as:
 
 ## Note
 
-This project is a self-initiated implementation based on a publicly available thesis topic related to autonomous inland vessels. No real project data or proprietary materials are used.
+This project is a self-initiated implementation based on a publicly available thesis topic from Technische Universität Berlin (TU Berlin). No real project data or proprietary materials are used.
 
 Reference: https://www.theses.tu-berlin.de/de/theses/019d0b43-9add-74f0-a093-1d014acca9ec
 
@@ -104,7 +104,7 @@ Ziel ist die Berechnung und Analyse zentraler Kennzahlen wie:
 
 ## Hinweis
 
-Dieses Projekt ist eine eigenständige Umsetzung basierend auf einem öffentlich zugänglichen Themenvorschlag im Bereich autonomer Binnenschifffahrt. Es werden keine realen Projektdaten oder vertraulichen Informationen verwendet.
+Dieses Projekt ist eine eigenständige Umsetzung basierend auf einem öffentlich zugänglichen Themenvorschlag der Technischen Universität Berlin (TU Berlin). Es werden keine realen Projektdaten oder vertraulichen Informationen verwendet.
 
 Referenz: https://www.theses.tu-berlin.de/de/theses/019d0b43-9add-74f0-a093-1d014acca9ec
 
