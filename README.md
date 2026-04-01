@@ -49,12 +49,15 @@ It includes:
 
 Install dependencies:
 
+```
 pip install -r requirements.txt  
+```
 
 Run the program:
 
+```
 python main.py  
-
+```
 ---
 
 ## Output
