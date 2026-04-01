@@ -128,13 +128,13 @@ Sie enthalten:
 ## Ausführung
 
 Installation:
-
+```
 pip install -r requirements.txt  
-
+```
 Ausführung:
-
+```
 python main.py  
-
+```
 ---
 
 ## Ergebnisse
