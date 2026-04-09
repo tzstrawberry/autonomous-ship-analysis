@@ -1,181 +1,55 @@
 # Autonomous Ship Data Analysis Pipeline
 
-## Project Overview
+A Python pipeline that turns sensor recordings of an autonomous inland research vessel into operational and performance KPIs. Since no real ship data is available, a synthetic sensor stream stands in for field data.
 
-This project implements a Python-based data analysis pipeline for the simulation and evaluation of sensor data from an autonomous inland vessel.
+> Self-initiated implementation based on a publicly available thesis topic from Technische Universität Berlin. No real project data or proprietary materials are used.
+> Reference: <https://www.theses.tu-berlin.de/de/theses/019d0b43-9add-74f0-a093-1d014acca9ec>
 
-Since no real-world data is available, synthetic (simulated) sensor data is generated to replicate realistic operational conditions.
+## Features
+- Synthetic sensor stream: GPS, IMU, anemometer, battery
+- True wind from apparent wind via vector subtraction
+- KPIs: energy efficiency [Wh/km], data density [GB/h], distance, duration, mean wind
+- Quick-look plots and unit tests
 
-The goal is to compute and analyze key operational metrics such as:
+## Quickstart
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+export PYTHONPATH=src
 
-- Energy consumption (Wh/km)  
-- Data density (GB/h)  
-- Environmental conditions (e.g., wind speed)
-
----
-
-## Note
-
-This project is a self-initiated implementation based on a publicly available thesis topic from Technische Universität Berlin (TU Berlin). No real project data or proprietary materials are used.
-
-Reference: https://www.theses.tu-berlin.de/de/theses/019d0b43-9add-74f0-a093-1d014acca9ec
-
----
-
-## Project Structure
-
-```text
-autonomous-ship-analysis/
-├── data/
-├── src/
-│   ├── generate_data.py
-│   ├── clean.py
-│   ├── metrics.py
-│   └── visualize.py
-├── main.py
-├── requirements.txt
-└── README.md
+python -m bka.cli simulate --out data/trip.parquet --duration 3600
+python -m bka.cli analyze --in data/trip.parquet
+pytest -q
 ```
 
----
-
-## Data Description
-
-The dataset is synthetic (simulated).
-
-It includes:
-
-- timestamp  
-- speed  
-- power_w  
-- wind_speed  
-- distance  
-
----
-
-## How to Run
-
-Install dependencies:
-
-```
-pip install -r requirements.txt  
-```
-
-Run the program:
-
-```
-python main.py  
-```
----
-
-## Output
-
-- Generate synthetic data  
-- Process data  
-- Compute metrics  
-- Visualize results  
-
----
-
-## Technologies
-
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
+## Tech Stack
+Python · NumPy · Pandas · Matplotlib · PyArrow · pytest
 
 ---
 
 # 🇩🇪 Deutsche Version
 
-## Projektübersicht
+Eine Python-Pipeline, die Sensordaten eines autonomen Binnenforschungsschiffs in Betriebs- und Leistungskennzahlen überführt. Da keine realen Schiffsdaten vorliegen, wird ein synthetischer Sensorstrom als Platzhalter verwendet.
 
-Dieses Projekt implementiert eine Python-basierte Datenanalyse-Pipeline zur Simulation und Auswertung von Sensordaten eines autonomen Binnenschiffs.
+> Eigenständige Umsetzung eines öffentlich zugänglichen Themenvorschlags der Technischen Universität Berlin. Es werden keine realen Projektdaten oder vertraulichen Informationen verwendet.
+> Referenz: <https://www.theses.tu-berlin.de/de/theses/019d0b43-9add-74f0-a093-1d014acca9ec>
 
-Da keine realen Daten vorliegen, werden synthetische (simulierte) Daten erzeugt, um typische Betriebsbedingungen nachzubilden.
+## Funktionen
+- Synthetischer Sensorstrom: GPS, IMU, Anemometer, Batterie
+- Wahrer Wind aus scheinbarem Wind per Vektorsubtraktion
+- Kennzahlen: Energieeffizienz [Wh/km], Datendichte [GB/h], Strecke, Dauer, mittlerer Wind
+- Schnellauswertungs-Plots und Unit-Tests
 
-Ziel ist die Berechnung und Analyse zentraler Kennzahlen wie:
+## Schnellstart
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+export PYTHONPATH=src
 
-- Energieverbrauch (Wh/km)  
-- Datendichte (GB/h)  
-- Umweltbedingungen (z. B. Windgeschwindigkeit)  
-
----
-
-## Hinweis
-
-Dieses Projekt ist eine eigenständige Umsetzung basierend auf einem öffentlich zugänglichen Themenvorschlag der Technischen Universität Berlin (TU Berlin). Es werden keine realen Projektdaten oder vertraulichen Informationen verwendet.
-
-Referenz: https://www.theses.tu-berlin.de/de/theses/019d0b43-9add-74f0-a093-1d014acca9ec
-
----
-
-## Projektstruktur
-
-```text
-autonomous-ship-analysis/
-├── data/
-├── src/
-│   ├── generate_data.py
-│   ├── clean.py
-│   ├── metrics.py
-│   └── visualize.py
-├── main.py
-├── requirements.txt
-└── README.md
+python -m bka.cli simulate --out data/trip.parquet --duration 3600
+python -m bka.cli analyze --in data/trip.parquet
+pytest -q
 ```
-
----
-
-## Datenbeschreibung
-
-Die Daten sind synthetisch (simuliert).
-
-Sie enthalten:
-
-- Zeitstempel  
-- Geschwindigkeit  
-- Leistungsaufnahme (power_w)  
-- Windgeschwindigkeit  
-- Distanz  
-
----
-
-## Ausführung
-
-Installation:
-```
-pip install -r requirements.txt  
-```
-Ausführung:
-```
-python main.py  
-```
----
-
-## Ergebnisse
-
-- Generierung von Daten  
-- Verarbeitung von Daten  
-- Berechnung von Kennzahlen  
-- Visualisierung von Ergebnissen  
-
----
 
 ## Technologien
-
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-
----
-
-## Ziel des Projekts
-
-Dieses Projekt zeigt:
-
-- Datensimulation  
-- Datenanalyse  
-- Entwicklung von Analyse-Pipelines  
-- Visualisierung von Daten  
+Python · NumPy · Pandas · Matplotlib · PyArrow · pytest
