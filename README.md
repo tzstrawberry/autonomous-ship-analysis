@@ -34,6 +34,7 @@ Python · NumPy · Pandas · Matplotlib · PyArrow · pytest
 Eine Python-Pipeline, die Sensordaten eines autonomen Binnenforschungsschiffs in Betriebs- und Leistungskennzahlen überführt. Da keine realen Schiffsdaten vorliegen, wird ein synthetischer Sensorstrom als Platzhalter verwendet.
 
 > Eigenständige Umsetzung eines öffentlich zugänglichen Themenvorschlags der Technischen Universität Berlin. Es werden keine realen Projektdaten oder vertraulichen Informationen verwendet.
+> Dieses Repository stellt einen frühen Prototyp sowie eine explorative Umsetzung dar.
 > Referenz: <https://www.theses.tu-berlin.de/de/theses/019d0b43-9add-74f0-a093-1d014acca9ec>
 
 ## Funktionen
@@ -41,6 +42,7 @@ Eine Python-Pipeline, die Sensordaten eines autonomen Binnenforschungsschiffs in
 - Wahrer Wind aus scheinbarem Wind per Vektorsubtraktion
 - Kennzahlen: Energieeffizienz [Wh/km], Datendichte [GB/h], Strecke, Dauer, mittlerer Wind
 - Schnellauswertungs-Plots und Unit-Tests
+- Prototypische Struktur mit Blick auf eine spätere Erweiterung durch reale Daten
 
 ## Schnellstart
 ```bash
