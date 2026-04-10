@@ -3,6 +3,7 @@
 A Python pipeline that turns sensor recordings of an autonomous inland research vessel into operational and performance KPIs. Since no real ship data is available, a synthetic sensor stream stands in for field data.
 
 > Self-initiated implementation based on a publicly available thesis topic from Technische Universität Berlin. No real project data or proprietary materials are used.
+> This repository represents an early prototype and exploratory implementation.
 > Reference: <https://www.theses.tu-berlin.de/de/theses/019d0b43-9add-74f0-a093-1d014acca9ec>
 
 ## Features
@@ -10,6 +11,7 @@ A Python pipeline that turns sensor recordings of an autonomous inland research 
 - True wind from apparent wind via vector subtraction
 - KPIs: energy efficiency [Wh/km], data density [GB/h], distance, duration, mean wind
 - Quick-look plots and unit tests
+- Prototype structure intended for further extension with real data
 
 ## Quickstart
 ```bash
